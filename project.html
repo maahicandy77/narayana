@@ -1,0 +1,160 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial
+scale=1.0"> 
+    <title>NARAYANA CONCEPT SCHOOL</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            background-color: darksalmon;
+        } 
+        header { 
+            background-color: white; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+            color: black;
+        } 
+        nav { 
+            display: flex; 
+            justify-content: center; 
+            background-color: #333; 
+        } 
+        nav a { 
+            color: white; 
+            padding: 14px 20px; 
+            text-decoration: none; 
+            text-align: center; 
+        } 
+        nav a:hover { 
+            background-color: #ddd; 
+            color: black; 
+        } 
+        section { 
+            padding: 20px; 
+        } 
+        .about{ 
+            background-color: #c683b1; 
+            margin-top: 20px; 
+        } 
+        .contact{
+            background-color: rgb(88, 133, 133);
+        }
+
+        .gallery{
+            background-color: #45a049;
+        }
+        .gallery img { 
+            width: 100%; 
+            height: auto; 
+            max-width: 200px; 
+            margin: 10px; 
+            border-radius: 10px; 
+        } 
+        .gallery { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+        } 
+        footer { 
+            background-color: #333; 
+            color: rgb(71, 5, 5); 
+            text-align: center; 
+            padding: 10px; 
+            position: fixed; 
+            width: 100%; 
+            bottom: 0; 
+        } 
+        .contact form { 
+            max-width: 400px; 
+            margin: auto; 
+        } 
+        .contact input, .contact textarea { 
+            width: 100%; 
+            padding: 10px; 
+            margin: 5px 0; 
+        } 
+        .contact button { 
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            padding: 10px; 
+            cursor: pointer; 
+        } 
+        .contact button:hover { 
+            background-color: #45a049; 
+        } 
+    </style> 
+</head> 
+<body> 
+ 
+    
+    <header> 
+        <img src="narayana-new-logo.png" alt="">
+        <h1>NARAYANA CONCEPT SCHOOL</h1> 
+        <p>Inspiring Young Minds</p> 
+    </header> 
+ 
+    
+    <nav> 
+        <a href="#home" target="_self">Home</a> 
+        <a href="about.html" target="_self">About Us</a> 
+        <a href="students names and marks.html" target="_self">Students Names &Marks</a> 
+        <a href="subject.html" target="_self">Subject teacher Names</a> 
+        <a href="sports.html" target="_self">Sports</a>
+        <a href="Mess.html" target="_self">Mess</a>
+    </nav> 
+ 
+     
+    <section id="home"> 
+        <h2>Our Mission</h2> 
+        <p>Our school is dedicated to fostering a positive learning 
+environment that empowers students to reach their full 
+potential.</p> 
+    </section> 
+ 
+    <section id="about" class="about"> 
+        <h2>About Us</h2> 
+        <p>Established in 2000, our school has been providing quality 
+education for over two decades. We offer a variety of programs 
+designed to challenge and support students.</p> 
+    </section> 
+    <section id="gallery" class="gallery"> 
+        <h2>Gallery</h2> 
+        <img src="naryanaschool.png" alt="School Image 1"> 
+        <img src="narayana-educational-society-logo-1-1068x664.jpg" alt="School Image 2"> 
+        <img src="OIP.jpeg" alt="School Image 3"> 
+        <img src="OIP (1).jpeg" alt="School Image 4"> 
+    </section> 
+
+    <section id="contact" class="contact"> 
+        <h2>Contact Us</h2> 
+        <form onsubmit="return submitForm()"> 
+            <label for="name">Name:</label> 
+            <input type="text" id="name" name="name" required> 
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" required> 
+            <label for="message">Message:</label> 
+            <textarea id="message" name="message" rows="4" 
+required></textarea> 
+            <button type="submit">Submit</button> 
+        </form> 
+    </section>
+    <footer> 
+        <p>&copy; 2024 My School. All rights reserved.</p> 
+    </footer> 
+ 
+    <script> 
+        function submitForm() { 
+            alert("Thank you for contacting us!"); 
+            return false; 
+demonstration 
+        } 
+    </script> 
+</body> 
+</html>
